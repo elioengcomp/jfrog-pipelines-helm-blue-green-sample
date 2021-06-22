@@ -1,0 +1,1 @@
+# jfrog-pipelines-helm-blue-green-sample
