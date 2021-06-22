@@ -1,0 +1,21 @@
+gitRepo:
+  gitProvider: my_github
+  path: elioengcomp/jfrog-pipelines-helm-blue-green-sample
+  branch: main
+
+appImage:
+  registry: my_artifactory
+  registryUrl: pipe5978dev7.jfrogdev.org
+
+appChart:
+  sourceArtifactory: my_artifactory
+
+runtime:
+  k8s_integration: my_k8s
+  namespace: pipe-master-pool
+  blueReleaseName: app-blue
+  greenReleaseName: app-green
+  idleServiceName: app-idle
+  liveServiceName: app
+
+
