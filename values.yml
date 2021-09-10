@@ -5,7 +5,7 @@ gitRepo:
 
 appImage:
   registry: my_artifactory
-  registryUrl: eliomhbgdemo3.jfrogdev.org
+  registryUrl: eliomhbgdemo4.jfrogdev.org
 
 appChart:
   sourceArtifactory: my_artifactory
